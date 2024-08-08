@@ -27,24 +27,18 @@
    cd linkk-tool
 Haz el script ejecutable:
 
-bash
-Copiar código
 chmod +x linkk.sh
 Opcional: Mueve el script a un directorio en tu PATH:
 
-bash
-Copiar código
 sudo mv linkk.sh /usr/local/bin/linkk
 
-*Uso*
+## USO 
+
 Abrir URLs con un perfil específico
-
-
 linkk vault gmail t
 Esto abrirá las URLs de vault y gmail con el perfil de Chrome t.
 
 
-Copiar código
 linkk add-url notion https://www.notion.so
 Añadir un nuevo perfil
 
