@@ -38,29 +38,24 @@ Abrir URLs con un perfil específico
 linkk vault gmail t
 Esto abrirá las URLs de vault y gmail con el perfil de Chrome t.
 
-
 linkk add-url notion https://www.notion.so
 Añadir un nuevo perfil
 
-
 linkk add-profile dev Profile 6
 Listar URLs y seleccionar una
-
-
 linkk list t
+
 Ejemplos
 Abrir una URL específica con un perfil:
-
 linkk gmail p
+
 Abrir varias URLs con un perfil:
-
 linkk vault github grafana t
-Añadir una URL y luego abrirla:
 
-bash
-Copiar código
+Añadir una URL y luego abrirla:
 linkk add-url jira https://team.atlassian.com/your-work?startRedirect=true
 linkk jira t
+
 Personalización
 Puedes editar el script para añadir o modificar enlaces y perfiles según tus necesidades.
 
