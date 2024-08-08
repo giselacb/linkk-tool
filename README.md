@@ -1,8 +1,3 @@
-# linkk-tool
-Aquí tienes un ejemplo de cómo estructurar la documentación en README.md:
-
-markdown
-Copiar código
 # LinkK Tool
 
 **LinkK** es una herramienta de línea de comandos que permite abrir múltiples URLs utilizando diferentes perfiles de Google Chrome. Este script está diseñado para ser intuitivo y fácil de personalizar.
@@ -40,35 +35,31 @@ Opcional: Mueve el script a un directorio en tu PATH:
 bash
 Copiar código
 sudo mv linkk.sh /usr/local/bin/linkk
-Uso
+
+*Uso*
 Abrir URLs con un perfil específico
-bash
-Copiar código
+
+
 linkk vault gmail t
 Esto abrirá las URLs de vault y gmail con el perfil de Chrome t.
 
-Añadir una nueva URL
-bash
+
 Copiar código
 linkk add-url notion https://www.notion.so
 Añadir un nuevo perfil
-bash
-Copiar código
+
+
 linkk add-profile dev Profile 6
 Listar URLs y seleccionar una
-bash
-Copiar código
+
+
 linkk list t
 Ejemplos
 Abrir una URL específica con un perfil:
 
-bash
-Copiar código
 linkk gmail p
 Abrir varias URLs con un perfil:
 
-bash
-Copiar código
 linkk vault github grafana t
 Añadir una URL y luego abrirla:
 
@@ -84,30 +75,3 @@ Las contribuciones son bienvenidas. Por favor, haz un fork del repositorio y env
 
 Licencia
 Este proyecto está bajo la Licencia MIT.
-
-markdown
-Copiar código
-
-### Paso 4: Subir los Cambios a GitHub
-
-1. **Añadir todos los archivos** al control de versiones:
-
-   ```bash
-   git add .
-Hacer un commit con un mensaje descriptivo:
-
-bash
-Copiar código
-git commit -m "Initial commit with script and documentation"
-Subir los cambios al repositorio en GitHub:
-
-bash
-Copiar código
-git push origin main
-Paso 5: Mejoras Opcionales
-Agregar un archivo .gitignore para evitar subir archivos innecesarios.
-Agregar una licencia, como la MIT, si deseas que tu proyecto sea de código abierto.
-Paso 6: Compartir y Promover
-Comparte el enlace del repositorio en comunidades, redes sociales o en foros donde pueda ser útil para otros.
-
-Siguiendo estos pasos, tendrás un repositorio de GitHub bien estructurado y documentado, lo que facilitará a otros usar y contribuir a tu proyecto.
